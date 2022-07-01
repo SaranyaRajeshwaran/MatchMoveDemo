@@ -1,0 +1,294 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 01 20:30:17 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Gocode/src/MatchMov/MatchMoveDemo
+# default
+SHELL := C:/Program Files/Git/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\rajeshsa\OneDrive - Carrier Corporation
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+NEXTHINK = C:\Program Files\Nexthink\Collector
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\rajeshsa\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+POSTGRES_DB_NAME = postgres
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8c7da3a9-10fe-467e-a586-351f60289314-sock
+# environment
+VSCODE_CWD = C:\Gocode\src\MatchMov\MatchMoveDemo
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+POSTGRES_PASSWORD = Kantha@123
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\1E\Client\Extensibility\NomadBranch;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\sqlite\sqlite-tools-win32-x86-3170000;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\mingw-w64\mingw64\bin;C:\Program Files\Go\bin;C:\MinGW\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\rajeshsa\AppData\Local\Microsoft\WindowsApps;C:\Gocode\bin;C:\Users\rajeshsa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Gocode\src\Protocol-Buffers\bin;C:\Program Files\Go\bin;C:\sqlite\sqlite-tools-win32-x86-3170000;C:\Users\rajeshsa\.dotnet\tools;C:\Program Files\dotnet;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\GoLand 2021.2.3\bin;;C:\Program Files\mingw-w64\mingw64\bin;C:\Users\rajeshsa\go\bin;C:\MinGW\bin;C:\Users\rajeshsa\AppData\Roaming\npm;C:\Kube;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132545750876149764
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\rajeshsa
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ADDNSNAME = carcgl.com
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Gocode
+# environment
+SITE = Unknown_BUSGM08036
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+POSTGRES_USER = postgres
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26356_AZPNHSZRYPVBDKIY
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = G7L2S73
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2021.2.3\bin;
+# default
+.LOADED := 
+# environment
+USERDNSDOMAIN = CARCGL.COM
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+PKG_CONFIG_PATH = C:\cygwin\lib\pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = rajeshsa
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Gocode\pkg\mod
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\rajeshsa\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\CINHYC02
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = CARCGL
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\rajeshsa\OneDrive - Carrier Corporation
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\rajeshsa\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\33ef4a048ca6b98022f0bffbbb0aeea5-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\rajeshsa
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\rajeshsa\AppData\Roaming
+# environment
+TEMP = C:\Users\rajeshsa\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+ADDOMAIN = CARCGL
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# environment
+ADSITE = C-SG-M0-AzureSoutheastAsia-8036
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0c
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 26356
+# environment
+USERDOMAIN_ROAMINGPROFILE = CARCGL
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=18/131=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Gocode/src/MatchMov/MatchMoveDemo, mtime 1656687602): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-27 21:50:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 158 B / avg = 7 B
+# current buf: size = 8162 B / used = 158 B / count = 21 / avg = 7 B
+
+# strcache performance: lookups = 24 / hit rate = 12%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=1/24=4%
+# Finished Make data base on Fri Jul 01 20:30:17 2022
+
+ 

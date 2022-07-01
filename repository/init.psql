@@ -1,0 +1,28 @@
+
+-- name: Demo-UserInformation-table 
+CREATE SCHEMA IF NOT EXISTS DEMO AUTHORIZATION postgres;
+CREATE TABLE IF NOT EXISTS DEMO.UserInformation(
+  id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  user_name VARCHAR(255) UNIQUE NOT NULL,
+  password VARCHAR(255),
+  isadmin BOOLEAN
+  )
+
+-- name: Demo-Token-table
+CREATE TABLE IF NOT EXISTS DEMO.TOKEN(
+  id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  user_name VARCHAR(255),
+  token VARCHAR(1000),
+
+   FOREIGN KEY(user_name) REFERENCES DEMO.UserInformation(user_name)
+)
+
+-- name: create-DEMO-UserInformation
+insert into DEMO.UserInformation(user_name, password, isadmin) VALUES
+('demouser1','demo', true),
+('demouser2','demo', true),
+('demouser3','demo', true),
+('demouser4','demo', false),
+('demouser5','demo', false)
+ON CONFLICT (user_name) DO NOTHING
+
